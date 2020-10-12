@@ -1,3 +1,42 @@
+
+
 .landing__set2{
-    padding-right: 50px;
+    height: 100px;  
+    display: grid;
+    place-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(34, 31, 83);
+    color: white;
+}
+
+.landing__form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landing__form > input {
+    height: 30px;
+    width: 70%;
+}
+
+.landing__form > button{
+    height: 30px;
+    width: 40%
+}
+
+
+@media screen and (max-width:960px){
+
+    .landing__set1{
+    width: 100%;
+    height: 100% ;        
+}
+    img{
+        width: 100%;
+        height: 100% ;
+    }
 }
