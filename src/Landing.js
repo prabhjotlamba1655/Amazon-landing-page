@@ -61,21 +61,21 @@ function Landing() {
 
             </div>
 
+            <div className="landing__form__outer">
+                <div className="landing__set2">
+                    <div className="landing__text">
+                        <h1> Register Here to get the more discount Cupons</h1>
+                    </div>
+                    <div className="landing__div">
+                        <form className="landing__form">
 
-            <div className="landing__set2">
-                <div className="landing__text">
-                    <h2> Register Here to get the more discount Cupons</h2>
-                </div>
-                <div className="landing__div">
-                    <form className="landing__form">
+                            <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter your E-mail" type="email" />
 
-                        <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter your E-mail" type="email" />
-
-                        <button onClick={saveEmail} type="submit" className="signin__button">Sign In</button>
-                    </form>
+                            <button onClick={saveEmail} type="submit" className="signin__button">Sign In</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-
 
             <div className="landing__set3">
                 <a href="https://amzn.to/2SMg0ri" target="_blank">
