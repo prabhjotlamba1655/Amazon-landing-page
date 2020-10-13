@@ -7,10 +7,9 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-      <Route path="/">
-            {/* <Header /> */}
-            <Landing />
-          </Route>
+      <Route path="/">  
+          <Landing />
+      </Route>
     </Router>
   );
 }
