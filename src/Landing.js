@@ -47,7 +47,7 @@ function Landing() {
                 <div className="landing__set2">
 
                     <div className="landing__text">
-                        <span> Register Here for regular updates about the sales</span>
+                        <span> Register here for regular updates about the Offers</span>
                     </div>
 
                     <div className="landing__div">
